@@ -33,7 +33,9 @@ const styles = StyleSheet.create({
     tableCell: {
         margin: "auto",
         marginTop: 5,
-        fontSize: 17
+        fontSize: 17,
+        paddingLeft: 5, // Agrega un padding a la izquierda
+        paddingRight: 5, // Agrega un padding a la derecha
     }
 });
 
