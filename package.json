@@ -1,0 +1,17 @@
+{
+  "name": "Sistema-Ventas",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "client": "vite --config ./client/vite.config.ts",
+    "electron": "electron .",
+    "start": "concurrently \"npm run client\" \"npm run electron\"",
+    "build": "vite build --config ./client/vite.config.ts",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^30.0.9",
+    "electron-builder": "^24.13.3"
+  }
+}
